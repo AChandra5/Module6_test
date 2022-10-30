@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 800px;
+  /* min-height: 500px; */
+  background: rgba(183,222,237,1);
+background: -moz-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 21%, rgba(84,197,234,1) 34%, rgba(33,180,226,1) 57%, rgba(106,201,231,1) 78%, rgba(183,222,237,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(183,222,237,1)), color-stop(21%, rgba(113,206,239,1)), color-stop(34%, rgba(84,197,234,1)), color-stop(57%, rgba(33,180,226,1)), color-stop(78%, rgba(106,201,231,1)), color-stop(100%, rgba(183,222,237,1)));
+background: -webkit-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 21%, rgba(84,197,234,1) 34%, rgba(33,180,226,1) 57%, rgba(106,201,231,1) 78%, rgba(183,222,237,1) 100%);
+background: -o-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 21%, rgba(84,197,234,1) 34%, rgba(33,180,226,1) 57%, rgba(106,201,231,1) 78%, rgba(183,222,237,1) 100%);
+background: -ms-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 21%, rgba(84,197,234,1) 34%, rgba(33,180,226,1) 57%, rgba(106,201,231,1) 78%, rgba(183,222,237,1) 100%);
+background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 21%, rgba(84,197,234,1) 34%, rgba(33,180,226,1) 57%, rgba(106,201,231,1) 78%, rgba(183,222,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=1 );
+;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.col-md-6{
+    border-radius: 23px;
+}
+
+.needs-validation {
+  padding: 10px;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(73, 77, 79);
+
+box-shadow: inset 0px 0px 22px 10px rgba(49,111,140,1);
+
+  border: 0px solid rgba(100, 100, 100, 1);
+  border-radius: 23px;
+  font-family: "Comforter Brush", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  background: rgb(139, 192, 217);
+
+}
+
+.gender-form-check {
+  display: flex;
+  /* background: red; */
+  /* max-width: 600px; */
+  margin-top: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.gender-option {
+  margin-left: 5px;
+  
+}
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border-radius: 23px;
+}
+
+/* .invalid-feedback{
+    display:none
+} */
